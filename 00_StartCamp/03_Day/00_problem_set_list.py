@@ -21,12 +21,13 @@
 """
 문제3. 숫자를 입력 받아 짝수/홀수를 구분하는 코드를 작성하세요.
 """
-num=int(input("숫자를 입력하세요: ")
-if num%2=0:
-print("짝수")
+num = int(input("숫자를 입력하세요: "))
 
-else:
-print("홀수")
+if num % 2 == 0:
+    print("짝수")
+
+else :
+    print("홀수")
 
 
 """
@@ -49,7 +50,8 @@ print("홀수")
 # else :
 #     print(False)
 
-"""
+
+
 """
 문제5. 표준 입력으로 물품 가격 여러 개가 문자열 한 줄로 입력되고, 
 각 가격은;(세미콜론)으로 구분되어 있습니다. 
@@ -62,20 +64,22 @@ print("홀수")
 2000
 """
 
-prices = input('물품 가격을 입력하세요: ')
+# prices = input('물품 가격을 입력하세요: ')
 
-makes = prices.split(';')
-boxs = []
+# makes = prices.split(';')
+# boxs = []
 
-for make in makes:
-    boxs.append(int(make))
+# for make in makes:
+#     boxs.append(int(make))
 
-boxs.sort(reverse=True)
+# boxs.sort(reverse=True)
 
-for box in boxs:
-    print(box)
+# for box in boxs:
+#     print(box)
 
 #print(makes)
 #print(type(makes))
+
+
 
 
