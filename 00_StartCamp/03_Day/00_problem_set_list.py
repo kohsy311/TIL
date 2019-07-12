@@ -14,9 +14,12 @@
 
 # n=int(input("숫자를 입력하세요: "))
 
-# for i in range(n):
-#     print(i/n)
+# for i in range(1, number+1):
+#     print(i)
 
+
+# 또는 i in range(number)
+# print(i+1)
 
 """
 문제3. 숫자를 입력 받아 짝수/홀수를 구분하는 코드를 작성하세요.
@@ -28,6 +31,11 @@ if num % 2 == 0:
 
 else :
     print("홀수")
+
+# if number %2:
+#     print('홀수')
+# else:
+#     print('짝수')
 
 
 """
@@ -79,7 +87,3 @@ else :
 
 #print(makes)
 #print(type(makes))
-
-
-
-

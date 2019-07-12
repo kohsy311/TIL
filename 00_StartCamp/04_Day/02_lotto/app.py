@@ -33,22 +33,22 @@ def lotto_result():
                 matched += 1
         
         if matched == 6:
-            result = '1등입니다 (다주거씀)'
+            result = '1등입니다(다주거씀)'
         
         elif matched == 5:
             if lotto['bnusNo'] in numbers:
-                result = "2등입니다 (탈조선)"
+                result = "2등입니다(탈조선)"
             else:
-                result = '3등입니다 (한우)'
+                result = '3등입니다(한우)'
       
         elif matched == 4:
-            result = '4등입니다 (택시)'
+            result = '4등입니다(택시)'
 
         elif matched == 3:
-            result = '5등입니다 (복권)'
+            result = '5등입니다(복권)'
         
         else:
-            result = '꽝입니다 (돈날림)'
+            result = '꽝입니다(돈날림)'
     else:
         result = '번호의 수가 6개가 아닙니다.'
 
